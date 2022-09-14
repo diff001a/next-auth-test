@@ -9,7 +9,7 @@ const Navigation = ({ ...props }: NavigationType) => {
     <Wrapper {...props}>
       <div className="inner">
         <Link href="/">
-          <Image src="/next.png" width="80px" />
+          <Image src="/next.svg" width="80px" />
         </Link>
         <LoginModal pathname="/dashboard" />
       </div>

@@ -83,7 +83,7 @@ const LoginModal = ({ variant = "text", pathname, ...props }: any) => {
       <Modal open={open} handleOpen={setOpen} className="box-modal">
         <ModalWrapper className="box">
           <CloseIcon className="close-button" onClick={() => setOpen(false)} />
-          <Image src="/next.png" width="150px" className="logo" />
+          <Image src="/next.svg" width="150px" className="logo" />
           <p>
             利用規約、プライバシーポリシーに同意した上でサインインしてください
           </p>

@@ -37,12 +37,12 @@ function LoginButton({ label, mode, pathname, className }: Props) {
       }}
     >
       {mode === "google" ? (
-        <Image src="/google.png" width="25px" className="image" />
+        <Image src="/google.svg" width="25px" className="image" />
       ) : (
         ""
       )}
       {mode === "line" ? (
-        <Image src="/line.png" width="25px" className="image" />
+        <Image src="/line.svg" width="26px" className="image" />
       ) : (
         ""
       )}
